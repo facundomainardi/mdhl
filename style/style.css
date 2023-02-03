@@ -10,13 +10,13 @@
 
 header {
 
-   /* height: 20vh;*/
+  /* height: 20vh;*/
     display: flex;
     align-items: center;
     flex-wrap: wrap;
-    background-image: url(/assets/design1_image1.jpg);
-    background-repeat: no-repeat;
-    background-position: 80%;
+    background-image: url(https://milanocortina2026.olympics.com/media/eudj1ngs/hockey-su-ghiaccio.jpg);
+    background-repeat:inherit;
+    background-position: 100%;
     flex-direction: column;
 
 }
@@ -50,8 +50,7 @@ main {
 h1 {
     text-align: center;
     font-size: 20px;
-    background-color: ghostwhite;
-    border-top-left-radius: 15%;
+   
 }
 
 .logo {
@@ -72,13 +71,14 @@ body {
 
 nav {
     min-height: 3vh;
-    background-color: beige;
+    background-color: rgb(194, 220, 188);
     display: flex;
     gap: 2rem;
     /*  padding: 0.5rem;*/
     flex-wrap: wrap;
     justify-content: flex-start;
     align-items: center;
+    padding-left: 10%;
 }
 
 .table-game {
@@ -118,12 +118,13 @@ nav a {
     font-size: 0.8rem;
     background-color: rgb(194, 220, 188);
     transition: all 1s;
-    border-top-left-radius: 30%;
-    border-top-right-radius: 30%;
+   
+    
+   
 }
 
 a:hover {
-    transform: scale(1.1);
+    transform: scale(1.5);
     color: rgb(25, 11, 75);
     background-color: rgb(194, 220, 188);
     border: none;
